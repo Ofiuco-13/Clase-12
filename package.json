@@ -1,0 +1,25 @@
+{
+  "name": "clase-12",
+  "version": "1.0.0",
+  "description": "Jquery, Promesas y web API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:dev": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ofiuco-13/Clase-12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ofiuco-13/Clase-12/issues"
+  },
+  "homepage": "https://github.com/Ofiuco-13/Clase-12#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.13",
+    "cypress": "^9.4.1"
+  }
+}
