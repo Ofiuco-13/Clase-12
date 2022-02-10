@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,21 +7,30 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='public/output.css'>
 </head>
-
 <body>
-
-    <h1>Ejemplo jQuery</h1>
-
-    <ul id="lista">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-    </ul>
-
+    <div class="min-h-screen flex items-center justify-center bg-gray-900">
+        <div>
+            <h1 class="text-zinc-100 text-4xl pb-10">Currency Converter</h1>
+            <div class="mb-40 space-y-4">
+                <p id="base-currency" class="text-gray-500"></p>
+                <h1 class="text-gray-100 text-5xl">0.00 X</h1>
+                <p id="last-update" class="text-gray-500"></p>
+                <form class="space-y-2 ">
+                    <div>
+                        <input type="number" class="bg-gray-900 outline-none border-2 border-gray-500 rounded p-1 text-gray-500 " />
+                        <select id="from-currency" name="Moneda" value="Moneda" selected class="bg-gray-900 text-gray-500 outline-none border-2 border-gray-500 rounded p-1.5 ml-1" />
+                        </select>
+                    </div>
+                    <div >
+                        <input id="to-currency" type="number" class="bg-gray-900 outline-none border-2 border-gray-500 rounded p-1 text-gray-500" >
+                        <select id="currency-list" class="bg-gray-900 text-gray-500 outline-none border-2 border-gray-500 rounded p-1.5 ml-1" >
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src='src/jquery.js'></script>
 </body>
-
 </html>
